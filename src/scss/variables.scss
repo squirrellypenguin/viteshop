@@ -99,7 +99,7 @@ h1 {
     display: inline-block;
     margin-right: 2px;
     margin-bottom: 1em;
-    width: 400px;
+    width: 300px;
     >.front,
     >.back {
       display: block;
@@ -135,4 +135,11 @@ h1 {
 }
 .back {
     color: black !important;
+}
+.h1 msg {
+    color: #bf1b2c;
+    font-size: 24px !important;
+}
+.footer {
+    left: 0px;
 }

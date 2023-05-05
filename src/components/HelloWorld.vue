@@ -2,12 +2,7 @@
   <div class="row">
     <div class="col text-center">
       <h1 class="msg">{{ msg }}</h1>
-      <p>
-        A project setup using <a href="https://vitejs.dev" target="_blank" rel="noopener">Vite</a>, created to easily scaffold
-        new Vue.js projects.<br />
-        Find out more at
-        <a class="custom" href="https://vitejs.dev" target="_blank" rel="noopener">Vite documentation</a>.
-      </p>
+      <p>This is what the.</p>
     </div>
   </div>
 </template>
