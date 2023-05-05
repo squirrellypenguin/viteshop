@@ -24,12 +24,10 @@
           <b-icon-house></b-icon-house></a>
 
         <!-- Twitter Link -->
-        <a v-if="artist.twitter" :href="artist.twitter" alt="twitter" style="font-size: 24px;color: black; padding-right: 5px"
-          ><b-icon-twitter></b-icon-twitter></a>
+        <a v-if="artist.twitter" :href="artist.twitter" alt="twitter" style="font-size: 24px;color: black; padding-right: 5px"><b-icon-twitter></b-icon-twitter></a>
 
         <!-- Facebook Link -->
-        <a v-if="artist.facebook" class="link-light" :href="artist.facebook" alt="FB" style="font-size: 24px;   color: black; padding-right: 5px""
-          ><b-icon-facebook></b-icon-facebook></a>
+        <a v-if="artist.facebook" class="link-light" :href="artist.facebook" alt="FB" style="font-size: 24px; color: black; padding-right: 5px"><b-icon-facebook></b-icon-facebook>
 
   
         <!-- Instragram Link -->
