@@ -4,7 +4,7 @@
     <div v-for="(artist, index) in artists" :key="index" class="flip">
       <div class="front">
         <h3 class="text-shadow">{{ artist.name }}</h3>
-        <p class="imagefit" style="color: white"><img style="height: 10.5vh; padding-left: 8vw" :src="artist.photo1" /></p>
+        <img style="height: 150px" :src="artist.photo1" />
       </div>
       <div class="back">
         <!-- Title -->
