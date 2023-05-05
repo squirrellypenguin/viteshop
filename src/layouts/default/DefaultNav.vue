@@ -23,6 +23,15 @@
           <li class="nav-item">
             <router-link to="/about" class="nav-link" @click.native="collapseNavbar">About</router-link>
           </li>
+          <li class="nav-item">
+            <router-link to="/artists" class="nav-link" @click.native="collapseNavbar">Artists</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/media" class="nav-link" @click.native="collapseNavbar">Media</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/location" class="nav-link" @click.native="collapseNavbar">Come visit!</router-link>
+          </li>
         </ul>
       </div>
     </div>

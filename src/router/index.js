@@ -24,6 +24,33 @@ const routes = [
     meta: {
       layout: 'default'
     }
+  },
+  {
+    path: '/artists',
+    name: 'Artists',
+    // route level code-splitting
+    component: () => import('@/views/Artists.vue'),
+    meta: {
+      layout: 'default'
+    }
+  },
+  {
+    path: '/media',
+    name: 'Media',
+    // route level code-splitting
+    component: () => import('@/views/Media.vue'),
+    meta: {
+      layout: 'default'
+    }
+  },
+  {
+    path: '/location',
+    name: 'Location',
+    // route level code-splitting
+    component: () => import('@/views/Location.vue'),
+    meta: {
+      layout: 'default'
+    }
   }
 ]
 
