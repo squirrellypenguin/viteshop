@@ -50,7 +50,7 @@
     "vite-plugin-vue2": "^2.0.3",
     "vue-template-compiler": "^2.7.14"
   },
-  {
+  
   "engines": {
     "node": ">=0.10.3 <15",
     "npm": ">=1.0.20"
