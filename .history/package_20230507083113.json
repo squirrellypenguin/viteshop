@@ -1,6 +1,6 @@
 {
-  "name": "craftshop",
-  "version": "0.1",
+  "name": "vue-vite-starter-template",
+  "version": "0.0.0-semantic-release",
   "private": true,
   "scripts": {
     "dev": "vite --host",
@@ -8,9 +8,15 @@
     "build": "vite build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "eslint . --ext .js,.vue",
-    "lint-fix": "eslint . --fix --ext .js,.vue"
+    "lint-fix": "eslint . --fix --ext .js,.vue",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^2.0.10",
     "axios": "^1.4.0",
     "bootstrap": "^4.6.2",
     "bootstrap-icons": "^1.10.5",

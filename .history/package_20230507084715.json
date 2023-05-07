@@ -1,6 +1,6 @@
 {
-  "name": "craftshop",
-  "version": "0.1",
+  "name": "vue-vite-starter-template",
+  "version": "0.0.0-semantic-release",
   "private": true,
   "scripts": {
     "dev": "vite --host",
