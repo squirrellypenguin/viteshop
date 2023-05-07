@@ -2,7 +2,7 @@
   <div class="container">
  <div>
   <div>
-    <h4>From humble beginnings</h4>
+    <h4>Top and Bottom</h4>
     <b-card-group deck>
       <b-card img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682514025/ICS_logo.png" img-top>
         <b-card-text>
@@ -18,7 +18,7 @@
     </b-card-group>
   </div>
   <div class="mt-4">
-    <h4>Our Forever Home</h4>
+    <h4>Left and Right (or Start and End)</h4>
     <b-card img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682418874/craftshop/285932220_5349441058441565_3060271347053375612_n_byuhef.jpg" img-alt="Card image" img-left class="mb-3">
       <b-card-text>
         The shop has grown into a must-see destination for Islanders and visitors alike. Over twenty members now exhibit a wide-ranging array of unique crafts.

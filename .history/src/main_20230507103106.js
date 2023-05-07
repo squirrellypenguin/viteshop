@@ -5,14 +5,13 @@ import store from './store'
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 
 
-
-
 /* import the fontawesome core */
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 
 Vue.config.productionTip = false
+
 
 
 

@@ -1,14 +1,11 @@
 <template>
-<div class="container">
-  <div class="row">
-    <div class="col">
-        <h2>Island Craft Shop</h2>
+  <div class="map">
+    <div class="contact-card">
+    <h2>Island Craft Shop</h2>
     <h3>329 US Route 2</h3>
     <h3>South Hero, Vermont 05486</h3>
     <a href="tel:8023723945">802 . 372 . 3945</a>
-    </div>
-    <div class="col">
-       <div v-if="new Date().getMonth() > 4">
+    <div v-if="new Date().getMonth() > 4">
               <h2>{{new Date()}} WE ARE OPEN</h2>
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                                 <li class="list-unstyled-item list-hours-item d-flex">
@@ -48,15 +45,30 @@
                             Dead of winter
                             </div>
     </div>
-    </div>
- 
-  <div class="row">
-    <div class="col">
-      <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-  <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-    style="border:0" allowfullscreen></iframe>
-</div>
-    </div>
+
+    <GmapMap
+       
+      :center='center'
+      :zoom='15'
+      style='width:100%;  height: 400px;'
+   ><GmapMarker :position="places" @click="linkToOtherWindow('https://goo.gl/maps/xWNdTk3kcDtcxFaW8')"/> </GmapMap>
   </div>
-</div>
 </template>
+
+<script>
+export default {
+  name: 'GoogleMap',
+  data() {
+    return {
+      center: { lat: 44.645, lng: -73.307 },
+      places: { lat: 44.645, lng: -73.307 }
+    }
+  },
+    methods: {
+    linkToOtherWindow(url) {
+       
+      window.open(url, '_blank');
+    }
+  },
+};
+</script>

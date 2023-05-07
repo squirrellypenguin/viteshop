@@ -49,7 +49,7 @@
                             </div>
     </div>
     </div>
- 
+  </div>
   <div class="row">
     <div class="col">
       <div id="map-container-google-3" class="z-depth-1-half map-container-3">

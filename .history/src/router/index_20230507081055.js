@@ -44,7 +44,7 @@ const routes = [
     }
   },
   {
-    path: '/Location',
+    path: '/location',
     name: 'Location',
     // route level code-splitting
     component: () => import('@/views/Location.vue'),

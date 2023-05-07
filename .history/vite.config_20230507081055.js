@@ -11,7 +11,7 @@ module.exports = defineConfig({
       minify: true,
       inject: {
         data: {
-          title: 'Craft Shop',
+          title: 'ProjectName',
           description: 'A single page application created using Vue.js'
         }
       }
