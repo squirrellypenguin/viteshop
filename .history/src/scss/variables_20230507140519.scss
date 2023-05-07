@@ -24,7 +24,7 @@ $dark: #bf1b2c;
 $navbar-dark-color: rgba($white, .7);
 
 // REDoutline for elements
-// * {border:1px solid red}
+* {border:1px solid red}
 
 // Custom styles
 .footer {
@@ -161,14 +161,13 @@ h1 {
 }
 .title {
     font-family: 'anti';
-    font-size: 3.5rem;
+    font-size: 3rem;
     background-color: white;
     color: black;
     padding: 2px;
     vertical-align: bottom;
     line-height: 75px;
     padding-top: 25px;
-    outline: 5px solid #bf1b2c;
     
 }
 
@@ -179,7 +178,6 @@ h1 {
     background-color: white;
     color: black;
     padding: 2px;
-    outline: 5px solid #bf1b2c;
 }
 
 .place {
@@ -187,12 +185,10 @@ h1 {
         background-color: white;
         color: black;
         margin-left: 150px;
-        outline: 5px solid #bf1b2c;
 }
 .oldest {
         text-align: left;
         background-color: white;
         color: black;
         padding: 2px;
-        outline: 5px solid #bf1b2c;
 }
