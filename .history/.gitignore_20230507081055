@@ -24,4 +24,3 @@ pnpm-debug.log*
 # Custom ignores
 .editorconfig
 .prettierrc
-.husky/commit-msg
