@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col text-center">
       <h1 class="msg">{{ msg }}</h1>
-      <p>This is what the update says.</p>
+      <p>This is what the.</p>
     </div>
   </div>
 </template>

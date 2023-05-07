@@ -18,7 +18,15 @@ $dark: #bf1b2c;
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 // local fonts
+@font-face {
+    font-family: 'anti';
+    src: url('~@/assets/fonts/anti.ttf') format('truetype');
+  }
 
+  @font-face {
+    font-family: 'art';
+    src: url('~@/assets/fonts/art.otf') format('opentype');
+  }
 
 
 $navbar-dark-color: rgba($white, .7);
@@ -43,7 +51,7 @@ body {
   color: #240909;
   background: #d5c9bc;
   text-align: center;
-  font-family: 'Anton';
+  font-family: 'anti';
   padding: 1em;
 }
 
@@ -148,15 +156,4 @@ h1 {
     left: 0px;
     line-height: 12px !important;
     
-}
-
-.title {
-    font-family: 'anti';
-    font-size: 3rem;
-}
-
-.tagline {
-    font-family: 'art';
-    font-size: 2rem;
-    font-weight: bold;
 }
