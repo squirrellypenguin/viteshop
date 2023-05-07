@@ -54,7 +54,7 @@ h1 {
 // base
 .flip {
     position: relative;
-
+    padding-right: 5px;
     >.front,
     >.back {
         display: block;
@@ -100,10 +100,9 @@ h1 {
 
 // custom
 .flip {
-    outline: 5px solid #bf1b2c;
     position: relative;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 2px;
     margin-bottom: 1em;
     width: 300px;
     >.front,
