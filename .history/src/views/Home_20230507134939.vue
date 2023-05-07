@@ -3,8 +3,8 @@
     <div class="frontSign">
       <p class="title">Island Craft Shop</p>
       <p class="tagline">A Coopertative Community</p>
-      <p class="place">Located in South Hero</p>
-      <p class="oldest">The oldest artisan cooperative in the Lake Champlain Region</p>
+      <p>Located in South Hero</p>
+      <p>The oldest artisan cooperative in the Lake Champlain Region</p>
       </div>
     <div class="text-center">
    

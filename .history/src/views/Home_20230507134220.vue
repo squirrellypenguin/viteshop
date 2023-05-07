@@ -1,13 +1,12 @@
 <template>
   <div class="container">
-    <div class="frontSign">
+    <div class="text-center">
+     <div class="frontSign">
       <p class="title">Island Craft Shop</p>
       <p class="tagline">A Coopertative Community</p>
-      <p class="place">Located in South Hero</p>
-      <p class="oldest">The oldest artisan cooperative in the Lake Champlain Region</p>
+      <p>Located in South Hero</p>
+      <p>The oldest artisan cooperative in the Lake Champlain Region</p>
       </div>
-    <div class="text-center">
-   
       <b-carousel id="carousel-fade" style="text-shadow: 0px 0px 2px #000" fade indicators img-width="1024" img-height="480">
         <b-carousel-slide
           caption=""
@@ -23,7 +22,6 @@
         ></b-carousel-slide>
       </b-carousel>
     </div>
-    
     <hello-world msg="This is a update" />
   </div>
 </template>

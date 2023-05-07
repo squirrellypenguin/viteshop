@@ -19,7 +19,9 @@
  <a href="https://www.facebook.com/media/set/?set=a.913779898674392.1073741836.189477107771345&type=3" target="_blank">2015</a>
  </li>
  </ul></div>
-  
+    <div class="w-100"></div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
   </div>
 </div>
 
